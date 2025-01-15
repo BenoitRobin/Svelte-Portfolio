@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { SectionHeadline, Button } from '$components';
+	import { SectionHeadline, Button, ExperienceTable } from '$components';
 	import Image from '$assets/about-me.jpeg';
 	import { goto } from '$app/navigation';
 
@@ -32,6 +32,7 @@
 			<Button className="mt-m" {onclick}>Tell me about your project</Button>
 		</div>
 	</div>
+	<ExperienceTable />
 </section>
 
 <style>
