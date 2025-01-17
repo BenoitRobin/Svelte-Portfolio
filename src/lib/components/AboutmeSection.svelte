@@ -2,6 +2,13 @@
 	import { SectionHeadline, Button, ExperienceTable } from '$components';
 	import Image from '$assets/about-me.jpeg';
 	import { goto } from '$app/navigation';
+	import type { DevExperience } from '$lib/types/sanity';
+
+	interface AboutMeProps {
+		workExperience: DevExperience[];
+	}
+
+	let { workExperience }: AboutMeProps = $props();
 
 	function onclick() {
 		goto('/#contact-form');
@@ -10,7 +17,7 @@
 
 <section class="about-me mt-l">
 	<SectionHeadline sectionName={'about-me'}>About me</SectionHeadline>
-	<div class="mt-m content-container default-margin">
+	<div class="mt-m mb-l content-container default-margin">
 		<img src={Image} alt="Benoit Robin" class="image" />
 		<div class="text">
 			<p>
@@ -32,7 +39,7 @@
 			<Button className="mt-m" {onclick}>Tell me about your project</Button>
 		</div>
 	</div>
-	<ExperienceTable />
+	<ExperienceTable {workExperience}/>
 </section>
 
 <style>
