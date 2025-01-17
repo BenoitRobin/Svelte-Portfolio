@@ -1,10 +1,11 @@
 <script>
-	import { HeroSection, AboutmeSection } from '$components';
+	import { HeroSection, AboutmeSection, MyWorkSection } from '$components';
 
 	const { data } = $props();
-let {workExperience} = data;
+let {workExperience, projects } = data;
 </script>
 
 <HeroSection />
 <AboutmeSection {workExperience}/>
+<MyWorkSection {projects} />
 
