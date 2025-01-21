@@ -6,3 +6,4 @@ export { default as SectionHeadline } from './UI/SectionHeadline.svelte';
 export { default as AboutmeSection} from './AboutmeSection.svelte';
 export { default as MyWorkSection} from './MyWorkSection.svelte';
 export { default as SkillsSection} from './SkillsSection.svelte';
+export { default as ContactSection} from './ContactSection.svelte';
