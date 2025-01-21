@@ -4,7 +4,7 @@ import ImageUrlBuilder from '@sanity/image-url';
 const config: ClientConfig = {
 	projectId: 'cuputefl',
 	dataset: 'production',
-	useCdn: true,
+	useCdn: false,
 	apiVersion: '2025-01-17'
 };
 
