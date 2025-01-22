@@ -6,7 +6,7 @@
 			<a href="https://www.linkedin.com/in/benoit-robin/" target="_blank" class="footer-link" aria-label="LinkedIn"><i class="devicon-linkedin-plain"></i></a>
 			<a href="https://twitter.com/lebeudrobin" target="_blank" class="footer-link" aria-label="Twitter"><i class="devicon-twitter-original"></i></a>
 		</div>
-		<p>© 2025 Benoit Robin - all rights reserved- made with &#9825;</p>
+		<p>© 2025 Benoit Robin - All rights reserved- made with &#9825;</p>
 	</div>
 </footer>
 

@@ -51,6 +51,7 @@
 		border-radius: 20px;
 		object-fit: cover;
 		cursor: pointer;
+		filter: grayscale(1);
 	}
 
 	.more-projects-container {
@@ -87,5 +88,9 @@
 	.company {
 		font-size: 18px;
 		margin-bottom: 0;
+	}
+
+	img:hover {
+		filter: grayscale(0);
 	}
 </style>
