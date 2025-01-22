@@ -25,6 +25,7 @@
 	},
 	"dependencies": {
 		"@sanity/image-url": "^1.1.0",
+		"@sendgrid/mail": "^8.1.4",
 		"next-sanity": "^9.8.37",
 		"sanity": "^3.70.0"
 	}
