@@ -23,4 +23,8 @@
 		border-radius: 10px;
 		padding: 14px 40px;
 	}
+	.nav-bar {
+        padding: 10px 24px;
+        font-size: 20px;
+    }
 </style>
